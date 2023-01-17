@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>worms</title>
+</head>
+<body>
+    <nav>
+        <h2>worms</h2>
+        <div class="links">
+            <a href="">My Books</a>
+            <a href="">Categories</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <div class="action-nav-bar">
+            <input type="text" id="search-bar" placeholder="enter book here">
+            <button class="action-btn">Create Account</button>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="text">
+            <span>best digital library</span>
+            <h2>Keep track of  <br>all your books digitally</h2>
+            <br>
+            <p>Why have a physical library when you can have a digital one?</p>
+            <br><br>
+            <button class="action-btn">Create Account</button>
+        </div>
+        <br><br>
+        <div class="img">
+            <img src="images/hero-img.svg" alt="" style="width:400px; height:400px">
+        </div>
+    </div>
+    
+    <h4 class="feat">Features</h4>
+    <div class="features">
+        <div class="item">
+            <img src="images/track.svg" alt="" style="width:150px; height:150px">
+            <p>keep track of all your books</p>
+        </div>
+        <div class="item">
+            <img src="images/recommend.svg" alt="" style="width:150px; height:150px">
+            <p>recommendations for new books</p>
+        </div>
+        <div class="item">
+            <img src="images/friends.svg" alt="" style="width:150px; height:150px">
+            <p>see what your friends are reading</p>
+        </div>
+    </div>
+
+    <section class="mybooks">
+        <h3 class="feat">My Library</h3>
+        <div class="add-more">
+            <button id="display-form" class="action-btn">Add Book</button> <br>
+
+        <div id="book-form" class="hide">
+            <h4>Enter Book Details</h4>
+            <form action="">
+                <br>
+                <label for="book-name">Name: </label>
+                <input type="text" placeholder="enter book name" id="bookName">
+                <br><br>
+
+                <label for="book-author">Author: </label>
+                <input type="text" placeholder="enter book author" id="bookAuthor">
+                <br><br>
+
+                <label for="book-img">Image: </label>
+                <input type="text" placeholder="enter book image" id="book-img">
+                <br><br>
+
+                <label for="status">Status:</label>
+                <select name="status" id="status">
+                    <option value="read">Read</option>
+                    <option value="reading">Reading</option>
+                    <option value="not read">Not Read</option>
+                </select>
+                <br><br>
+
+                <label for="rating">Rating:</label>
+                <select name="status" id="rating">
+                    <option value="bad">Bad</option>
+                    <option value="mid">Mid</option>
+                    <option value="great">Great</option>
+                </select>
+                <br><br>
+            </form>
+            <button id="add-book" class="action-btn">Done</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="catalog" id="catalog">
+            <h3>Catalog</h3>
+    </div>    
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
