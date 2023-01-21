@@ -77,6 +77,7 @@ function clearForm(){
     bookName.value = " ";
     bookAuthor.value = " ";
     bookImg.value = " ";
+    
     bookStatus.value = " ";
     bookRating.value = " ";
 }
