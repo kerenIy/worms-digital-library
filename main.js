@@ -3,6 +3,8 @@
 //code to grab the html elements from the html document
 const addBook = document.getElementById('add-book');
 const catalog = document.getElementById('catalog');
+
+//code to grab the html form elements
 const showForm = document.getElementById('display-form')
 const bookForm = document.getElementById('book-form');
 
